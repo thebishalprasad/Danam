@@ -1,7 +1,7 @@
 import React from 'react';
-import HomeHero from './components/HomeHero';
-import HomeAbout from './components/HomeAbout';
-import DonateForm from './components/DonateForm';
+import HomeHero from './Components/HomeHero';
+import HomeAbout from './Components/HomeAbout';
+import DonateForm from './Components/DonateForm';
 
 const Home = () => {
   return (
