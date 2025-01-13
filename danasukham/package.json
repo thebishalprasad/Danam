@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@react-email/components": "^0.0.32",
+    "danasukham": "file:",
     "next": "^15.1.4",
     "nodemailer": "^6.9.16",
     "react": "^19.0.0",
