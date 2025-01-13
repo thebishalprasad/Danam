@@ -15,7 +15,7 @@ const HomeHero = () => {
             </div>
             <p className="text-base md:text-lg lg:text-xl text-[#614123] text-center hero_p lg:w-[50vw]">Empowering students to share knowledge! Donate your old books and help others access valuable resources. Together, let's build a community of learning and giving.</p>
             <span className="w-full flex gap-3 justify-center">
-                <Link href='#getInTouch' className="capitalize text-[#FAFAFA] bg-[#6F381E] hover:bg-[#6f381ee3] h-10 lg:h-12 w-36 lg:w-48 font-medium flex items-center justify-center gap-2 rounded-md text-sm lg:text-lg shadow-lg hero_btn">
+                <Link href='#contact' className="capitalize text-[#FAFAFA] bg-[#6F381E] hover:bg-[#6f381ee3] h-10 lg:h-12 w-36 lg:w-48 font-medium flex items-center justify-center gap-2 rounded-md text-sm lg:text-lg shadow-lg hero_btn">
                     KindDrop
                     <BsArrowUpRight className="text-lg lg:text-xl" />
                 </Link>
