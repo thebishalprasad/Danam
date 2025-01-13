@@ -2,8 +2,8 @@ import "./globals.css";
 import { Geist, Geist_Mono } from "next/font/google";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import Navbar from "./Components/Navbar";
-import Footer from "./Components/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +22,7 @@ export const metadata = {
   openGraph: {
     title: "Danam - Donate for a Cause",
     description: "A simple donation platform to help needy people in India. Donate unused items like books and electronics.",
-    url: "https://www.danam.com",
+    url: "https://danam.vercel.app/",
     type: "website",
   },
 };

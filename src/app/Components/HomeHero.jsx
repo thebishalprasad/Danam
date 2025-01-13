@@ -7,7 +7,7 @@ import Link from 'next/link';
 const HomeHero = () => {
 
     return (
-        <div className="h-auto w-full bg-[url('/herobg.png')] lg:bg-cover bg-center py-10 flex flex-col items-center justify-center lg:justify-center gap-5 lg:gap-7 px-5 lg:px-0  backdrop-brightness-75">
+        <div className="h-auto w-full bg-[url('/herobg.webp')] lg:bg-cover bg-center py-10 flex flex-col items-center justify-center lg:justify-center gap-5 lg:gap-7 px-5 lg:px-0  backdrop-brightness-75">
             <div className="flex flex-col w-full lg:w-[50vw]">
                 <h1 className="w-full text-3xl lg:text-4xl xl:text-5xl font-bold capitalize text-[#4E341C] hero_h1 text-center">DonateEase </h1>
                 <span className="w-full text-2xl lg:text-3xl xl:text-4xl font-bold capitalize text-[#7a522c] hero_h1 text-center">&</span>

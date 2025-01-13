@@ -8,35 +8,18 @@ import logo from '../../../public/logo.webp'
 
 const Navbar = () => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-    const [navbarScrolled, setNavbarScrolled] = useState(false);
 
     const toggleSidebar = () => {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY > 50) {
-                setNavbarScrolled(true);
-            } else {
-                setNavbarScrolled(false);
-            }
-        };
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, []);
-
     return (
         <>
-            <nav className={`h-16 w-full bg-white ${navbarScrolled ? 'shadow' : 'shadow-none'} transition-all duration-300 flex justify-between items-center px-5 lg:px-20 fixed top-0 z-30`}>
-                <div className='h-16 w-fit flex justify-center items-center cursor-pointer' onClick={() => handleScrollToSection('home')}>
+            <nav className={`h-16 w-full bg-white transition-all duration-300 flex justify-between items-center px-5 lg:px-20 fixed top-0 z-30`}>
+                <Link href="/" className='h-16 w-fit flex justify-center items-center cursor-pointer'>
                     <Image src={logo} height={529} width={1024} alt='logo' className='h-10 w-10 lg:h-20 lg:w-20 ' />
                     <h1 className='text-2xl text-[#6F381E]'>Danam</h1>
-                </div>
+                </Link>
                 <div className='h-16 w-fit justify-between items-center hidden md:flex gap-5'>
                     <ul className='flex justify-between items-center h-16 capitalize text-sm font-semibold'>
                         {

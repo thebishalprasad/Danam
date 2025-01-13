@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link'
 import React from 'react'
-import logotext from '../../../public/logotext.png';
+import logotext from '../../../public/logotext.webp';
 import Image from 'next/image';
 import { IoLocation, IoLogoInstagram, IoLogoLinkedin, IoMail } from 'react-icons/io5';
 import { IoMdCall } from 'react-icons/io';

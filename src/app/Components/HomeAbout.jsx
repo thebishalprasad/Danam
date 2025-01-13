@@ -2,7 +2,7 @@
 import React from 'react'
 import { RiVerifiedBadgeFill } from "react-icons/ri";
 import Image from "next/image";
-import logotext from "../../../public/logotext.png";
+import logotext from "../../../public/logotext.webp";
 
 const HomeAbout = () => {
     return (

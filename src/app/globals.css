@@ -30,3 +30,19 @@
         transform: rotate(360deg);
     }
 }
+
+@media (min-width: 1024px) {
+    .getInTouchInputGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr auto;
+    }
+}
+
+@media (min-width: 1280px) {
+  .getInTouchInputGrid2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto 1fr auto;
+  }
+}
