@@ -22,7 +22,6 @@ export const metadata = {
   openGraph: {
     title: "Danam - Donate for a Cause",
     description: "A simple donation platform to help needy people in India. Donate unused items like books and electronics.",
-    url: "https://danam.vercel.app/",
     type: "website",
   },
 };

@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import Not404Found from "../../public/NotFound.webp"
+import Not404Found from "../../public/notfound.webp"
 
 const NotFound = () => {
   return (
