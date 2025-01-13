@@ -1,4 +1,4 @@
-"use client"
+'use client'
 import React, { useEffect, useState } from 'react'
 import { navbarItems } from '../assets/staticData';
 import Image from 'next/image'
