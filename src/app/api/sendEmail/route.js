@@ -12,7 +12,6 @@ export async function POST(req) {
                 pass: process.env.EMAIL_PASS,
             },
         });
-        console.log(process.env.EMAIL_USER,process.env.EMAIL_PASS,process.env.TO_MAIL_ID);
         const mailOptions = {
             from: process.env.EMAIL_USER,
             to: process.env.TO_MAIL_ID,
